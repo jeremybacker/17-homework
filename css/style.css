@@ -10,10 +10,13 @@
     text-align: center;
 }
 
+.navigation {
+    background-color: aquamarine;
+}
+
 nav {
     width: 73%;
     padding: 1%;
-    background-color:aquamarine;
     color: #373738;
 }
 
@@ -32,10 +35,22 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 0 auto;
+}
+
+button {
+    background-color:darkslategrey;
+    color: white;
+    padding: 12px;
 }
 
 footer {
     background-color: #373738;
     padding: 25px;
     color: aquamarine;
+    text-align: center;
 }
