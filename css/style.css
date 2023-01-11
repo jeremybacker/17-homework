@@ -11,7 +11,8 @@
 }
 
 .logo img {
-    width: 25%;
+    height: 75%;
+    margin: 10px;
 }
 
 .navigation {
@@ -30,6 +31,11 @@ nav {
     align-content: center;
 }
 
+body {
+    display: block;
+    margin: auto;
+}
+
 ul {
     margin-left: auto;
     list-style: none;
@@ -37,7 +43,6 @@ ul {
 }
 
 .heroImg {
-    height: 600px;
     padding: 25px;
     overflow: auto;
 }
@@ -54,12 +59,12 @@ ul {
 } 
 
 button {
-    background-color:darkslategrey;
-    color: white;
-    padding: 12px;
+    background-color:aquamarine;
+    color: #373738;
+    padding: 16px;
+    border-radius: 16px;
+    font-weight: 700;
 }
-
-
 
 footer ul {
     width: 100%;
